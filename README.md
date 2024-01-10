@@ -7,6 +7,11 @@ A powerful AI-driven SaaS platform that allows users to effortlessly transform i
 
 
 <div align="center">
+<img src="/screenshots/imaginify (11).png" alt="Screen 1" width="100%"/>
+</div>
+
+
+<div align="center">
 
 <table>
   <tr>
@@ -23,7 +28,7 @@ A powerful AI-driven SaaS platform that allows users to effortlessly transform i
     <td><img src="/screenshots/imaginify (8).png" alt="Screen 1" width="200"/></td>
     <td><img src="/screenshots/imaginify (9).png" alt="Screen 1" width="200"/></td>
     <td><img src="/screenshots/imaginify (10).png" alt="Screen 1" width="200"/></td>
-    <td><img src="/screenshots/imaginify (11).png" alt="Screen 1" width="200"/></td>
+    
   </tr>
 </table>
 
