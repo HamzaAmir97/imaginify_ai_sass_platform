@@ -3,7 +3,31 @@
 A powerful AI-driven SaaS platform that allows users to effortlessly transform images using next-gen AI tools. Imaginfy enables tasks like object removal, background editing, and more through an intuitive, credit-based interface.
 
 ---
+## 📖 screenshots
 
+
+<div align="center">
+
+<table>
+  <tr>
+    <td><img src="/screenshots/imaginify (1).png" alt="Screen 1" width="200"/></td>
+    <td><img src="/screenshots/imaginify (2).png" alt="Screen 1" width="200"/></td>
+    <td><img src="/screenshots/imaginify (3).png" alt="Screen 1" width="200"/></td>
+    <td><img src="/screenshots/imaginify (4).png" alt="Screen 1" width="200"/></td>
+    <td><img src="/screenshots/imaginify (5).png" alt="Screen 1" width="200"/></td>
+
+  </tr>
+  <tr>
+    <td><img src="/screenshots/imaginify (6).png" alt="Screen 1" width="200"/></td>
+    <td><img src="/screenshots/imaginify (7).png" alt="Screen 1" width="200"/></td>
+    <td><img src="/screenshots/imaginify (8).png" alt="Screen 1" width="200"/></td>
+    <td><img src="/screenshots/imaginify (9).png" alt="Screen 1" width="200"/></td>
+    <td><img src="/screenshots/imaginify (10).png" alt="Screen 1" width="200"/></td>
+    <td><img src="/screenshots/imaginify (11).png" alt="Screen 1" width="200"/></td>
+  </tr>
+</table>
+
+</div>
 ## 🗂 Table of Contents
 
 1. [Overview](#overview)
