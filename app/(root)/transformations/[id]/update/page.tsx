@@ -2,7 +2,7 @@ import React from 'react'
 
 const UpdateTransofrmationPage = () => {
   return (
-    <div>UpdateTransofrmationPage</div>
+    <div className='text-red-300'>UpdateTransofrmationPage</div>
   )
 }
 
