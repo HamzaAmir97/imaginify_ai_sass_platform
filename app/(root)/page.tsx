@@ -1,8 +1,17 @@
-import React from 'react'
+import { UserButton } from "@clerk/nextjs"
+
+
 
 export const Home= () => {
+
   return (
-    <div>H</div>
+    <div>
+      <p>
+       log out
+       
+      </p> 
+      
+       </div>
   )
 }
 
