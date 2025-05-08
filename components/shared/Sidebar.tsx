@@ -18,7 +18,8 @@ const Sidebar = () => {
         </Link>
 
         <nav className="sidebar-nav">
-          <SignedIn>
+         
+        
             <ul className="sidebar-nav_elements">
               {navLinks.slice(0, 6).map((link) => {
                 const isActive = link.route === pathname
@@ -69,7 +70,7 @@ const Sidebar = () => {
                 <UserButton afterSignOutUrl='/' showName />
               </li>
             </ul>
-          </SignedIn>
+         
 
           <SignedOut>
             <Button asChild className="button bg-purple-gradient bg-cover">
