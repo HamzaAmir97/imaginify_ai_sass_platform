@@ -1,5 +1,6 @@
+import Sidebar from "@/components/shared/Sidebar"
 
-import { Sidebar } from '@/components/shared/Sidebar'
+
 
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
