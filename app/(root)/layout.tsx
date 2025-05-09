@@ -1,3 +1,4 @@
+import MoibleNav from "@/components/shared/MoibleNav"
 import Sidebar from "@/components/shared/Sidebar"
 
 
@@ -9,6 +10,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 
     <main className="root">
        <Sidebar/>
+       <MoibleNav/>
       <div className='root-container'>
        <div  className='wrapper'>
 
