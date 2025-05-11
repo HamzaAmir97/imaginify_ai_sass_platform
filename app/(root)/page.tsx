@@ -7,7 +7,7 @@ export const Home= () => {
   return (
     <div>
       <p>
-       log out
+      <h1> Welcome Home Bro</h1>
        
       </p> 
       
