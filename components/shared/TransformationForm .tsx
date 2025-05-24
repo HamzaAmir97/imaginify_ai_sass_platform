@@ -26,15 +26,12 @@ import { Input } from "@/components/ui/input"
 import { aspectRatioOptions, creditFee, defaultValues, transformationTypes } from "@/constants"
 
 import { useEffect, useState, useTransition } from "react"
-import { AspectRatioKey, debounce, deepMergeObjects } from "@/lib/utils"
-import MediaUploader from "./MediaUploader"
-import TransformedImage from "./TransformedImage"
 
-import { getCldImageUrl } from "next-cloudinary"
 import { useRouter } from "next/navigation"
-import { InsufficientCreditsModal } from "./InsufficientCreditsModal"
 import { CustomField } from "./CustomField"
 import { updateCredits } from "@/lib/actions/user.action"
+import { deepMergeObjects } from "@/lib/utils"
+import InsufficientCreditsModal from "./InsufficientCreditsModal"
  
 export const formSchema = z.object({
   title: z.string(),
@@ -268,7 +265,7 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
           </div>
         )}
 
-        <div className="media-uploader-field">
+        {/* <div className="media-uploader-field">
           <CustomField 
             control={form.control}
             name="publicId"
@@ -292,7 +289,7 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
             setIsTransforming={setIsTransforming}
             transformationConfig={transformationConfig}
           />
-        </div>
+        </div> */}
 
         <div className="flex flex-col gap-4">
           <Button 
