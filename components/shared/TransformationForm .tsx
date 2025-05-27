@@ -32,6 +32,7 @@ import { CustomField } from "./CustomField"
 import { updateCredits } from "@/lib/actions/user.action"
 import { deepMergeObjects } from "@/lib/utils"
 import InsufficientCreditsModal from "./InsufficientCreditsModal"
+import MediaUploader from "./MediaUploder"
  
 export const formSchema = z.object({
   title: z.string(),
@@ -265,7 +266,7 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
           </div>
         )}
 
-        {/* <div className="media-uploader-field">
+        <div className="media-uploader-field">
           <CustomField 
             control={form.control}
             name="publicId"
@@ -280,7 +281,7 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
               />
             )}
           />
-
+{/* 
           <TransformedImage 
             image={image}
             type={type}
@@ -288,8 +289,8 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
             isTransforming={isTransforming}
             setIsTransforming={setIsTransforming}
             transformationConfig={transformationConfig}
-          />
-        </div> */}
+          /> */}
+        </div>
 
         <div className="flex flex-col gap-4">
           <Button 
