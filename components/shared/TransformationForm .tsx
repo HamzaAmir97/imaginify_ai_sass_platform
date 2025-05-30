@@ -33,6 +33,7 @@ import { updateCredits } from "@/lib/actions/user.action"
 import { deepMergeObjects } from "@/lib/utils"
 import InsufficientCreditsModal from "./InsufficientCreditsModal"
 import MediaUploader from "./MediaUploder"
+import TransformedImage from "./TransformedImage"
  
 export const formSchema = z.object({
   title: z.string(),
@@ -281,7 +282,7 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
               />
             )}
           />
-{/* 
+
           <TransformedImage 
             image={image}
             type={type}
@@ -289,7 +290,7 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
             isTransforming={isTransforming}
             setIsTransforming={setIsTransforming}
             transformationConfig={transformationConfig}
-          /> */}
+          /> 
         </div>
 
         <div className="flex flex-col gap-4">
