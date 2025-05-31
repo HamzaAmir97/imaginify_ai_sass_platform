@@ -95,6 +95,8 @@ declare type CreateUserParams = {
     | "recolor"
     | "removeBackground";
   
+  declare type AspectRatioKey = "1:1" | "3:4" | "9:16";
+  
   // ====== URL QUERY PARAMS
   declare type FormUrlQueryParams = {
     searchParams: string;
