@@ -10,8 +10,12 @@ import { connectToDatabase } from "../databse/mongoose";
 // CREATE
 export async function createUser(user: CreateUserParams) {
   try {
+
+
     await connectToDatabase();
+
 console.log("clerk done create user")
+
     const newUser = await User.create(user);
 
     return JSON.parse(JSON.stringify(newUser));
