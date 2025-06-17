@@ -181,3 +181,7 @@ export async function getUserImages({
     handleError(error);
   }
 }
+
+type SearchParamProps = {
+  searchParams: { [key: string]: string | string[] | undefined }
+};
