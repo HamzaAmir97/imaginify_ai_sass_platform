@@ -268,8 +268,8 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
             )}
           </div>
         )}
-
         <div className="media-uploader-field">
+
           <CustomField 
             control={form.control}
             name="publicId"
