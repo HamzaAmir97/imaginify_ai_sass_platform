@@ -138,10 +138,5 @@ Pull requests are welcome. Suggest improvements, report bugs, or add features �
 
 ---
 
-## 📄 License
-
-📜 Choose your license — MIT, Apache 2.0, or proprietary.
-
----
 
 > Built with 💡and ❤️ to help creatives and developers effortlessly transform their visuals through the power of AI. ✨
